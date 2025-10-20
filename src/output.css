@@ -566,6 +566,54 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[-10px\] {
+  margin-bottom: -10px;
+}
+
+.mb-\[-20px\] {
+  margin-bottom: -20px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[200px\] {
+  margin-left: 200px;
+}
+
+.ml-\[150px\] {
+  margin-left: 150px;
+}
+
+.ml-\[10px\] {
+  margin-left: 10px;
+}
+
+.ml-\[120px\] {
+  margin-left: 120px;
+}
+
 .flex {
   display: flex;
 }
@@ -590,6 +638,10 @@ video {
   height: 45px;
 }
 
+.h-\[20px\] {
+  height: 20px;
+}
+
 .w-\[\] {
   width: ;
 }
@@ -602,8 +654,52 @@ video {
   width: 100%;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
+.w-\[700px\] {
+  width: 700px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-\[00px\] {
+  width: 00px;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[900px\] {
+  width: 900px;
+}
+
 .list-none {
   list-style-type: none;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .justify-between {
@@ -622,12 +718,57 @@ video {
   gap: 1.75rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[600px\] {
+  border-width: 600px;
+}
+
+.border-\[10px\] {
+  border-width: 10px;
+}
+
+.border-\[0\] {
+  border-width: 0;
+}
+
+.border-\[0px\] {
+  border-width: 0px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[gray\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(128 128 128 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\] {
@@ -712,8 +853,17 @@ video {
   font-size: 13px;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
